@@ -7,7 +7,7 @@
 
 `systemctl --failed`
 
-- Start/Stop/Restart/Reload a service:
+- Start/stop/restart/reload a service:
 
 `systemctl {{start|stop|restart|reload}} {{unit}}`
 
@@ -15,7 +15,7 @@
 
 `systemctl status {{unit}}`
 
-- Enable/Disable a unit to be started on bootup:
+- Enable/disable a unit to be started on bootup:
 
 `systemctl {{enable|disable}} {{unit}}`
 
